@@ -323,7 +323,7 @@ namespace SharpRambo.POSPrinterLib
 #else
                     } else if (journal == JournalStatus.CartridgeCleanHead || journal == JournalStatus.CartridgeRefill) {
 #endif
-                        usage = UsageStatus.Maintance;
+                        usage = UsageStatus.Maintenence;
                         ReadyToPrint = false;
                     } else if (journal == JournalStatus.PaperRefill) {
                         usage = UsageStatus.PaperRefill;
@@ -354,7 +354,7 @@ namespace SharpRambo.POSPrinterLib
 #else
                     } else if (receipt == ReceiptStatus.CartridgeCleanHead || receipt == ReceiptStatus.CartridgeRefill) {
 #endif
-                        usage = UsageStatus.Maintance;
+                        usage = UsageStatus.Maintenence;
                         ReadyToPrint = false;
                     } else if (receipt == ReceiptStatus.PaperEmpty) {
                         usage = UsageStatus.PaperEmpty;
@@ -400,7 +400,7 @@ namespace SharpRambo.POSPrinterLib
 #else
                     } else if (slip == SlipStatus.CartridgeCleanHead || slip == SlipStatus.CartridgeRefill) {
 #endif
-                        usage = UsageStatus.Maintance;
+                        usage = UsageStatus.Maintenence;
                         ReadyToPrint = false;
                     } else if (slip == SlipStatus.PaperRefill) {
                         usage = UsageStatus.PaperRefill;

@@ -90,7 +90,7 @@ namespace SharpRambo.POSPrinterLib
         Busy,
         Offline,
         Warning,
-        Maintance,
+        Maintenence,
         CoverOpen,
         PaperEmpty,
         PaperRefill,
